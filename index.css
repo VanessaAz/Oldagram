@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    box-sizing: border-box;
+    max-width: 300px;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: 1em auto;
+   
+}
+
+img {
+    max-width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+}
+
+.header--logo{
+    max-width: 100px;
+}
+
+.header--image, 
+.post__info--avatar{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+}
+
+.post__info--avatar{
+    position: absolute;
+    top: 32%;
+}
+.post__info {
+    display: flex;
+    align-items: center;
+    padding-left: .5em;
+    position: relative;
+}
+
+.post__info--name {
+    font-weight: 700;
+    margin-left: 2.2em;
+    margin-bottom: .2em;
+    
+}
+
+.post__info--name > span{
+    font-weight: 300;
+    display: block;
+    margin-top: 3px;
+    font-size: .8rem;
+}
+
+.post__cta{
+    display: flex;
+}
+
+.cta {
+    height: 30px;
+    width: 30px; 
+}
+
+.post__cta--btn {
+    background: transparent;
+    border: none;
+}
+
+.post__info--like {
+    font-weight: 700;
+    margin: .2em .5em;
+    
+}
+
+.post__info--comments {
+    margin: .5em .2em .5em .5em;
+
+}
+
+.post__info--comments > span {
+    font-weight: 700;
+}
+
